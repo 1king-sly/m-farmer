@@ -139,15 +139,21 @@ li a:hover{
   
 
 }
+a:active{
+    text-decoration: underline;
+    text-decoration-color: orange;
+    color: orange;
+    background-color: transparent;
+}
  li a .sign{
     color: orange;
 }
 section{
-    width:80%vmax;
+    
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    margin: 20px;
+  
 }  
 .aboutus{
 text-align: center;
@@ -198,18 +204,31 @@ button{
     margin-top: 7px;
     cursor: pointer;
 }
- section .footer {
+.footer h1{
+    margin-left: px;
+}
+ .footer .row .col{
     display: flex;
     flex-direction: row;
-    margin: 100px;
+    align-items: center;
+    text-align: center;
+    width: 1600px;
+    height: 120px;
+    background-color: #2d2d64;
+    object-fit: contain;
+    margin-left: -50px;
+    margin-bottom: -50px;
+ 
 }
-.footer .row .col img{
-    width: 30px;
+.footer img{
+    height: 40px;
+    object-fit: contain;
+    width: auto;
     display: inline;
-}
-.footer .row .col {
-    width: 30px;
-    margin: 30px;
+    margin-left: 10px;
+    align-items: center;
+    margin-right: -45px;
+    
 }
 .contact .btn{
     margin-left: 570px;
@@ -228,230 +247,17 @@ button{
     transition: .4s ease-in-out;
 }
 
-h4{
-    font-size: 3vmin;
-    color: #484872;
-    margin: 20px auto ;
-}
+
 .row .col img{
     width: 300px;
 }
-.presenters img{
-    width:80%;
-     
+.about img{
+    transition: transform .4s ease-in-out;
+    cursor: pointer;
 }
-.presenters{
-    margin-bottom: px;
-    margin-top: px;
-}
-
-.attendance .row .col{
-    width: 50%;
-    
-}
-.attendance .image-gallery{
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-    align-items: center;
-}
-.image-gallery img{
-    width: 250px;
-    margin:10px;
-    max-width: 300px;
-}
-.attendance img{
-    width: 50%;
-    max-width: 20vmax;
-}
-.content-col{
-    width: 40%;
-}
-.image-col{
-    width: 60%;
-}
-.content-col h1{
-
-    font-size: 7vmin;
-    color: #484872;  
-    
-}
-.content-col .line{
-    margin:auto;
-}
-.content-col p{
-    padding: 0;
-    margin: 15px auto;
-}
-.recess{ 
-    margin-top: 80px;
-}
-.recess .content-col{
-    margin-left: 650px;
-    margin-top: -250px;
-}
-.recess .row .col{
-    width: 50%;
-}
-.recess .image-gallery{
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-    align-items: center;
-}
-.recess img{
-    width: 40%;
-    max-width: 20vmax;
-}
-.image-gallery img{
-    width: 250px;
-    margin:10px;
-    max-width: 300px;
-}
-.snacks .image-gallery{
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-    align-items: center;
-}
-.image-gallery img{
-    width: 250px;
-    margin:10px;
-    max-width: 300px;
-}
-.snacks img{
-    width: 40%;
-    max-width: 20vmax;
-}
-.content-col{
-    width: 40%;
-}
-.image-col{
-    width: 60%;
-}
-.content-col h1{
-
-    font-size: 7vmin;
-    color: #484872;  
-    
-}
-.content-col .line{
-    margin:auto;
-}
-.content-col p{
-    padding: 0;
-    margin: 15px auto;
-}
-.snacks .image-col{
-    margin-left: 700px;
-    margin-right: 10px;
-}
-.snacks .content-col{
-    margin-bottom: -400px;
-}
-.snacks{
-    margin-top: 80px;
-}
-.night{
-    margin-top: 80px;
-}
-.night .row .image-col .image-gallery img{
-    width: 20px;
-}
-.night .image-gallery{
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-    align-items: center;
-}
-
-.image-gallery img{
-    width: 250px;
-    margin:px;
-    max-width: 300px;
-}
-.night .row .col{
-    width: 50%;
-    
-}
-.night .image-gallery{
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-    align-items: center;
-}
-.image-gallery img{
-    width: 250px;
-    margin:px;
-    max-width: 300px;
-}
-.snacks img{
-    width: 40%;
-    max-width: 20vmax;
-}
-.content-col{
-    width: 40%;
-}
-.image-col{
-    width: 60%;
-}
-.content-col h1{
-
-    font-size: 7vmin;
-    color: #484872;  
-    
-}
-.content-col .line{
-    margin:auto;
-}
-.content-col p{
-    padding: 0;
-    margin: 15px auto;
-}
-.night img{
-    width: 50%;
-    max-width: 20vmax;
-    
-}
-.night .image-gallery img{
-    margin: 20px 0;
-}
-.night .content-col{
-    margin-left: px;
-    margin-bottom:-300px;
-}
-.night .image-col{
-    margin-left:512px;
-}
-.night .row .col{
-    width: 50%;
-    
-}
-.night .image-gallery{
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-    align-items: center;
-}
-.image-gallery img{
-    width: 200px;
-    margin:10px;
-    max-width: px;
-}
-.snacks img{
-    width: 40%;
-    max-width: 20vmax;
-}
-.content-col{
-    width: 40%;
-}
-img{
-    transition: transform .3s ease;
-}
-img:hover{
+.about img:hover{
     transform: scale(1.1);
 }
-
-
-
-    
+.footer img{
+    cursor: pointer;
+}

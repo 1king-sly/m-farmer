@@ -160,17 +160,24 @@ text-align: center;
 font-size: 4vmin;
 color: #49498e;
 }
+.display{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
 .row{
  align-items: center;
  display: flex;
  margin: 50px;
 
 }
-.row .col{
+  .row .col{
     display: flex;
     flex-direction: column;
     align-items: center;
     flex-wrap: wrap;
+    
     
 }
 p{
@@ -261,3 +268,18 @@ button{
 .footer img{
     cursor: pointer;
 }
+@media  (max-width:335px) {
+ section{
+    display: block;
+ }
+.about img{
+    width: 90%;
+ }
+  header .header-content {
+    font-size: 16px;
+    text-align: left;
+    margin-left: -240px;
+ }
+  
+}
+    

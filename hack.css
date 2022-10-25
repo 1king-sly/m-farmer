@@ -273,7 +273,7 @@ button{
         height: 100vh;
         position: absolute;
         margin-top: -900px;
-        transition: all .4s ease-in-out;
+        transition: all .3s ease-in-out;
     }
  .nav-links{
     display: inline-block;
